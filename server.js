@@ -2,7 +2,7 @@ import connectionDB from "./db/connection.js";
 import dotenv from 'dotenv';
 import express from "express";
 import startCryptoCron from "./cron-Scheduler/cryptoCron.js";
-import statsRoutes from "./router/statsRoutes.js";
+import statsRoutes from "./router/userRoute.js";
 
 dotenv.config()
 
