@@ -25,7 +25,7 @@ const fetchCryptoData= async()=>{
             return null
         }
         return{
-            coin:coinData.name,
+            coin:coinData.name.toLowerCase(),
             price: coinData.current_price,
             marketcap: coinData.market_cap,
             change24hr: coinData.price_change_percentage_24h,
