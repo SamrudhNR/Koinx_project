@@ -42,8 +42,10 @@ Mongoose: ODM (Object Data Modeling) library to interact with MongoDB.
 
 
 API Endpoints
+
 1./stats
     Description: Fetch the latest data for a specific cryptocurrency.
+
     Sample Request:
         GET http://localhost:5000/stats?coin=bitcoin
     
@@ -54,8 +56,10 @@ API Endpoints
             "change24hr": -0.08675
         }
 
+
 2. /deviation
     Description: Fetch the standard deviation of the price for a specific cryptocurrency based on the last 100 records
+
     Sample Request:
         GET http://localhost:5000/deviation?coin=bitcoin
     
@@ -68,11 +72,14 @@ How to Use
 1.Clone the Repository
     git clone <repository-url>
     cd <project-folder>
+
 2.Install Dependencies
     npm install
+
 3.Set Up Environment Variables Create a .env file in the root of your project with the following content:
     MONGODB_URI=<your-mongo-db-uri>
     COINGECKO_API_KEY=<your-api-key>
+
 4.Run the Server
     npm start
 
