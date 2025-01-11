@@ -68,19 +68,21 @@ API Endpoints
             "deviation": 38.14
         }
 
-How to Use
+How to Use:
+
 1.Clone the Repository
-    git clone <repository-url>
-    cd <project-folder>
+    git clone repo-url
 
 2.Install Dependencies
     npm install
 
 3.Set Up Environment Variables Create a .env file in the root of your project with the following content:
-    MONGODB_URI=<your-mongo-db-uri>
-    COINGECKO_API_KEY=<your-api-key>
+    MONGODB_URI= your-mongodb-atlas-uri
+
+    COINGECKO_API_KEY= https://docs.coingecko.com/v3.0.1/reference/introduction.
 
 4.Run the Server
+
     npm start
 
 The API will be available at- http://localhost:5000.
